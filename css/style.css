@@ -1,0 +1,38 @@
+/* port styling */
+
+.available-magnet {
+    fill: #00FF03;
+}
+
+
+/* element styling */
+
+.available-cell {
+    stroke-dasharray: 5, 2;
+}
+
+#paper {
+    position: relative;
+    left: 300px;
+    width: 1000px;
+    height: 666px;
+}
+
+#stencil-container {
+    width: 300px;
+    height: 666px;
+    position: absolute;
+}
+
+.joint-stencil .group .joint-elements {
+    margin-left: -10px;
+    background: transparent;
+}
+
+.joint-stencil .joint-paper {
+    left: 0;
+}
+
+.body {
+    cursor: pointer;
+  }

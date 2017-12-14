@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>JointJS Demo</title>
+	<link rel="stylesheet" href="lib/rappid/rappid.css">
+	</script>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+	<div><textarea name="textarea" id="textarea" rows="10" style="width:100%"></textarea>
+	</div>
+	<div id="toolbar"></div>
+	<div id="stencil-container"></div>
+	<div id="paper"></div>
+	<div id="navigator"></div>
+	<div class="tooltip-create"></div>
+</body>
+<!-- 加载jointJS依赖 -->
+<script src="lib/jquery.js"></script>
+<script src="lib/lodash.js"></script>
+<script src="lib/backbone.js"></script>
+<!-- rappid是joint的拓展工具 -->
+<script src="lib/rappid/rappid.js"></script>
+<!-- springDataFlow组件 -->
+<script src="js/spring/myMetamodel.js"></script>
+<script src="js/spring/graph-to-text.js"></script>
+<script src="js/spring/parser.js"></script>
+<!-- joint自定义配置 -->
+<script src="js/demoData.js"></script>
+<script src="js/jointConfig.js"></script>
+<script src="js/jointUtils.js"></script>
+<script src="js/index.js"></script>
+</html>
